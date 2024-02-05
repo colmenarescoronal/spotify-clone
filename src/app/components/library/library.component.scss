@@ -1,0 +1,70 @@
+.card{
+  background-color: #121212;
+  height: 100%;
+
+  header{
+    display: flex;
+    gap:8px;
+    padding: 8px 16px;
+
+    .btn-library{
+      display: flex;
+      gap: 8px;
+      padding: 4px 8px;
+      background: transparent;
+      border: none;
+
+      margin-inline-end: auto;
+      -webkit-margin-end: auto;
+
+      &:hover{
+        .text{
+          color: #fff;
+        }
+        .icon{
+          fill: #fff;
+        }
+      }
+    }
+
+    .btn-show-more-less,
+    .btn-create-playlist{
+      display: flex;
+      padding: 8px;
+      background: transparent ;
+      border: none;
+      border-radius: 50%;
+      transition: 0.2s;
+      &:hover{
+
+        background: #191919;;
+
+        .icon-small{
+          fill: #fff;
+        }
+      }
+    }
+
+    .icon {
+      fill: #b3b3b3;
+      width: 24px;
+      height: 24px;
+      transition: 0.2s;
+    }
+
+    .icon-small {
+      fill: #b3b3b3;
+      width: 16px;
+      height: 16px;
+      transition: 0.2s;
+    }
+
+    .text{
+      color: #b3b3b3;
+      font-weight: 700;
+      font-size: 16px;
+      transition: 0.2s;
+    }
+  }
+}
+

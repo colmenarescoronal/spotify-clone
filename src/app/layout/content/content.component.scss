@@ -1,0 +1,15 @@
+.main-container{
+  padding: 8px;
+  height: 100vh;
+  display: grid;
+
+  grid-template-rows: auto 80px;
+  grid-template-columns: 450px auto;
+
+  column-gap: 8px;
+  row-gap: 8px;
+
+  app-player{
+    grid-column: 1/3;
+  }
+}
